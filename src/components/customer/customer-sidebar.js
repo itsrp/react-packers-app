@@ -14,13 +14,13 @@ const CustomerSideBar = (props) => {
                     Search
                 </NavItem>
             </LinkContainer>
-            <LinkContainer to='/customer/add'>
+            <LinkContainer to='/customer/form'>
                 <NavItem eventKey={2} title="Item">
                     Add
                 </NavItem>
             </LinkContainer>
             <LinkContainer to='/customer/edit'>
-                <NavItem eventKey={3} disabled>
+                <NavItem eventKey={3}>
                     Edit
                 </NavItem>
             </LinkContainer>

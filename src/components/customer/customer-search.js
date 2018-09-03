@@ -1,9 +1,9 @@
 import React from 'react';
-import EnhancedTable from '../third-party/table';
+import CustomerTable from '../../containers/customer-table';
 
 const CustomerSearch = (props) => {
     return(
-        <div><EnhancedTable/></div>
+        <div><CustomerTable/></div>
     );
 
 };

@@ -10,7 +10,7 @@ const Customer = (props) => {
                 <Col xs={3} md={2}>
                     <CustomerSideBar/>
                 </Col>
-                <Col xs={12} md={6}>
+                <Col xs={12} md={10}>
                     <CustomerMain/>
                 </Col>
             </Row>
